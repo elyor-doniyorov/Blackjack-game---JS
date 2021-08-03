@@ -1,5 +1,3 @@
-let btn = document.getElementById("btn")
-
 
 let firstCard = 10
 let secondCard = 11
@@ -27,6 +25,10 @@ function startGame() {
         isAlive = false
     }
     messageEl.textContent = message
+}
+
+function newCard() {
+    console.log("Drawing a new card from the deck!")
 }
 
 
