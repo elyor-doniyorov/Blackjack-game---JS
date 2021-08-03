@@ -3,7 +3,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     color: honeydew;
-    background-image: url('http://downtownstthomas.ca/wp-content/uploads/2013/01/Green-Pattern1-1024x768.jpg');
+    background-image: url('images/wallpaper.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -15,4 +15,16 @@ h1 {
 
 #message-el {
     font-style: italic;
+}
+
+button {
+    border: none;
+    border-radius: 3px;
+    background-color: goldenrod;
+    color: darkgreen;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 7px;
+    width: 200px;
+    cursor: pointer;
 }
